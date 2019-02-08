@@ -2,26 +2,245 @@
 <!doctype html>
 <html lang="fa">
 <head>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  shrink-to-fit=no">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap-rtl.css">
+  <link rel="stylesheet" href="style-rtl.css">
+
+  <meta name="description" content="ایران چکاپ- آزمایش پزشکی در ایران" />
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="وبگاه عروض: سایتی برای یافتن وزن عروضی اشعار فارسی">
+  <meta name="twitter:site" content="@prosody">
+  <meta name="twitter:title" content="وبگاه عروض">
+  <meta name="twitter:description" content="وبگاه عروض: سایتی برای یافتن وزن عروضی اشعار فارسی">
+  <meta name="twitter:image" content="http://arooz.net/logo.png">
+  <!-- Open Graph data -->
+  <meta property="og:title" content="وبگاه عروض">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://arooz.net">
+  <meta property="og:image" content="http://arooz.net/logo.png">
+  <meta property="og:description" content="وبگاه عروض: سایتی برای یافتن وزن عروضی اشعار فارسی">
   <title>
     وبگاه عروض: سایتی برای یافتن وزن عروضی اشعار فارسی
   </title>
 </head>
 <body>
-  <header>
-  </header>
-  <nav>
-  </nav>
-  <article>
-  </article>
-  <footer>
+  <nav class="navbar our-navbar navbar-expand-md navbar-light bg-primary fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" width="100px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              خانه
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              یافتن وزن عروضی
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              داده ها
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              مقاله ها و گزارش ها
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              اخبار سایت
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              درباره پروژه
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <main role="main" class="container">
+    <div class="row text-center">
+      <div class="col-lg-6 col-md-12 order-lg-2">
+        <h1 class="main-heading text-center">
+          وزن عروضی هر بیت شعری را به راحتی بیابید
+        </h1>
+        <p>
+          بیت را به تفکیک مصراع بدون حرکت گذاری وارد کنید:
+        </p>
+        <form>
+          <div class="form-group row">
+            <label class="col-sm-3" for="Lpart1">
+              مصراع اول
+            </label>
+            <input type="text" class="form-control text-center col-sm-8 " id="Lpart1"
+            name="Lpart1"
+            placeholder="دارم از زلف سیاهش گله چندان که مپرس"
+            onsubmit="if(this.value=='') this.value='دارم از زلف سیاهش گله چندان که مپرس';">
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3" for="Lpart2">
+              مصراع دوم
+            </label>
+            <input type="text" class="form-control text-center col-sm-8" id="Lpart2"
+            name="Lpart2"
+            placeholder="که چنان زو شده&zwnj;ام بی سر و سامان که مپرس"
+            onsubmit="if(this.value=='که چنان زو شده&zwnj;ام بی سر و سامان که مپرس') this.value='';">
+          </div>
+          <button type="submit" class="btn btn-success btn-block">
+            یافتن وزن
+          </button>
+        </form>
+      </div>
+      <div class="col-lg-3 col-md-12 order-lg-3 text-center">
+        <p class="p-3">
+        </p>
+        <p>
+          استفاده از پایگاه عروض رایگان است اما اگر بخواهید می‌توانید از عروض حمایت مادی یا معنوی کنید.
+        </p>
+        <button type="button" class="btn btn-outline-primary">
+          <i class="fas fa-hand-holding-usd"></i>
+          حمایت مالی
+        </button>
+        <p class="p-1">
+        </p>
+        <p>
+          در شبکه‌های اجتماعی، عروض را معرفی کنید.
+        </p>
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <p></p>
+      </div>
+      <div class="col-lg-3 col-md-12 order-lg-1">
+        <p class="p-4">
+        </p>
+        <div>
+          <button type="button" class="btn btn-outline-primary btn-block">
+            <i class="fas fa-info"></i>
+            درباره پروژه
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-block">
+            <i class="fas fa-database"></i>
+            مقاله ها و گزارش ها
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-block">
+            <i class="fas fa-newspaper"></i>
+            داده ها
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row news mt-4 pt-4 pb-4 container">
+      <div class="col-sm-12 text-center mt-3 mb-3">
+        <h2>
+          آخرین خبرها
+        </h2>
+      </div>
+      <div class="col-lg-4">
+        <div class="media">
+          <div class="news-date mr-2">
+            <span class="day">
+              14
+            </span>
+            <span class="month">
+              اردیبهشت
+            </span>
+          </div>
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 mr-6 news-titr">
+              حل مشکل وبگاه
+            </h5>
+            <p class="mr-6">
+              خوشبختانه مشکل فنی وبگاه عروض حل شد. پوزش ما را به خاطر توقف خدمات وبگاه بپذیرید.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="media">
+          <div class="news-date mr-2">
+            <span class="day">
+              14
+            </span>
+            <span class="month">
+              اردیبهشت
+            </span>
+          </div>
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 mr-6 news-titr">
+              حل مشکل وبگاه
+            </h5>
+            <p class="mr-6">
+              خوشبختانه مشکل فنی وبگاه عروض حل شد. پوزش ما را به خاطر توقف خدمات وبگاه بپذیرید.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="media">
+          <div class="news-date mr-2">
+            <span class="day">
+              14
+            </span>
+            <span class="month">
+              اردیبهشت
+            </span>
+          </div>
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 mr-6 news-titr">
+              حل مشکل وبگاه
+            </h5>
+            <p class="mr-6">
+              خوشبختانه مشکل فنی وبگاه عروض حل شد. پوزش ما را به خاطر توقف خدمات وبگاه بپذیرید.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <button class="btn  bg-info text-white btn-block">
+          همه خبرها
+        </button>
+      </div>
+  </main>
+  <footer class="footer mt-3 py-3 text-center">
+    <div class="container">
+      <span class="">
+        Copyright 2019 <a href="#">Mahdi Mojiri</a> -
+        Design: <a href="#">Amir Mojiri</a>
+      </span>
+    </div>
   </footer>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
-  <scrip src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

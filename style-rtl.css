@@ -1,0 +1,133 @@
+﻿@import url(css/fontiran.css);
+@import url(css/fontawesome.css);
+body {
+	font-family: IRANSans !important;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: IRANSans !important;
+}
+/* Show it is fixed to the top */
+body {
+  padding-top: 4.5rem;
+}
+a:hover {
+	color: #ffffff !important;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+.our-navbar {
+	background-color: #1ca4df !important;
+	border: solid #000000 !important;
+	border-width: 1px 0 1px 0 !important;
+	font-size: 12px;
+}
+.nav-link {
+	color: #000000 !important;
+	font-weight: 600;
+	padding: 0.5em 0.8em !important;
+}
+.nav-link.active {
+	color: #ffffff !important;
+}
+.main-heading {
+	font-size: 30px!important;
+	color: #00b8dd;
+	font-weight: 600;
+}
+/* social icons */
+.social-icons > a > i {
+  font-size: 14px;
+  color: #ffffff;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-weight: 500;
+  border-radius: 50px;
+  margin-right: 1px;
+}
+.social-icons > a > i:hover {
+  background: #e4dfdf;
+  -webkit-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  transition-duration: 400ms;
+}
+.fa-twitter {
+  background-color:#32CCFE;
+}
+.fa-twitter:hover {
+  color: #32CCFE;
+}
+.fa-facebook-f {
+  background-color:#3C599F;
+}
+.fa-facebook-f:hover {
+  color: #3C599F;
+}
+.fa-telegram-plane {
+  background-color: #0088cc;
+}
+.fa-telegram-plane:hover {
+  color: #0088cc;
+}
+.fa-whatsapp {
+  background-color: #25d366;
+}
+.fa-whatsapp:hover {
+  color: #25d366;
+}
+.fa-linkedin-in {
+  background-color: #3C599F;
+}
+.fa-linkedin-in:hover {
+  color: #3C599F;
+}
+/* news in main page */
+.mr-6 {
+	margin-right: 4rem !important;
+}
+.news {
+  background-color: #1381d6 !important;
+}
+.news-titr {
+	font-size: 16px;
+	font-weight: 600;
+}
+.news-date {
+	padding: 0;
+	border: 1px solid #f6c916;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 60px;
+	text-align: center;
+	background: #f7f7f7;
+}
+.day {
+	display: block;
+  font-size: 24px;
+  color: #444;
+  font-weight: 300;
+  padding: 0 5px 5px;
+  background-color: #f6c916;
+}
+.month {
+	background-color: #003db7;
+	color: #dddddd;
+	display: block;
+	font-size: 11px;
+	padding: 2px 5px;
+	font-weight: normal;
+	text-transform: uppercase;
+	position: relative;
+	margin: -1px -1px 0;
+  border: 1px solid;
+}
+/* footer */
+.footer {
+  background: #585a5a;
+	color: #ffffff;
+}
